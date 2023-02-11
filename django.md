@@ -9,3 +9,5 @@ cd meter_django/
 python3 manage.py startapp electricity
 ```
 (compared to the example: `locallibrary` -> `meter_django` and `catalog` -> `electricity`)
+
+Saved the `SECRET_KEY` in a file `meter_django/meter_django/secret.py`

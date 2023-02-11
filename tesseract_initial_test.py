@@ -3,7 +3,8 @@ pytesseract.pytesseract.tesseract_cmd = r"/usr/bin/tesseract"
 
 from PIL import Image
 
-img = Image.open('test_img3_sub.jpg')
+img = Image.open('captured.jpg')
+img = Image.open('test_img2.jpg')
 
 print(pytesseract.image_to_string(img, lang='eng', config='--psm 6'))
 
